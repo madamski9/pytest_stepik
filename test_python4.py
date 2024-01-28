@@ -1,4 +1,5 @@
 #!/env/usr/bin python3
+import pytest
 
 def powitanie(imie):
     return f"Witaj, {imie}!"
