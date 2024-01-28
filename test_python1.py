@@ -3,5 +3,10 @@
 def dodawanie(liczba1, liczba2):
 	return liczba1+liczba2
 
-print(dodawanie(5,4))
+
+def test_dodawanie():
+	assert dodawanie(1,4) == 5
+	assert dodawanie(2,-2) == 0
+
+
 

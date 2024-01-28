@@ -3,5 +3,8 @@
 def powitanie(imie):
     return f"Witaj, {imie}!"
 
-print(powitanie("maciek"))
+
+def test_powitanie():
+	assert powitanie("maciek") == "Witaj, maciek!"
+
 
